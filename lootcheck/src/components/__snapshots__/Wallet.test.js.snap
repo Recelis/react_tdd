@@ -20,49 +20,23 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h3
-        className="balance"
-      >
-        Wallet balance: 
-        20
-      </h3>,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          "Wallet balance: ",
-          20,
-        ],
-        "className": "balance",
-      },
-      "ref": null,
-      "rendered": Array [
-        "Wallet balance: ",
-        20,
-      ],
-      "type": "h3",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <h3
+      "children": Array [
+        <h3
           className="balance"
         >
           Wallet balance: 
           20
         </h3>,
-      },
-      "ref": null,
-      "rendered": Object {
+        <br />,
+        <input
+          className="input-wallet"
+          onChange={[Function]}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -80,6 +54,92 @@ ShallowWrapper {
         ],
         "type": "h3",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "input-wallet",
+          "onChange": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3
+            className="balance"
+          >
+            Wallet balance: 
+            20
+          </h3>,
+          <br />,
+          <input
+            className="input-wallet"
+            onChange={[Function]}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Wallet balance: ",
+              20,
+            ],
+            "className": "balance",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Wallet balance: ",
+            20,
+          ],
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "input-wallet",
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+      ],
       "type": "div",
     },
   ],
