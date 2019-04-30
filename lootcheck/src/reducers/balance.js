@@ -7,7 +7,7 @@ const balance = (state = 0, action) => {
         case constants.DEPOSIT:
             return state + action.deposit;
         case constants.WITHDRAW:
-            return state - action.withdraw;
+            return state - action.withdrawal;
         default:
             return state;
     }
