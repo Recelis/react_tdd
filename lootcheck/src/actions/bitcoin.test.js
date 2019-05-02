@@ -15,6 +15,9 @@ fetchMock.get(
 );
 
 it('creates an async action to fetch the bitcoin value', () => {
-    
+    const expectedActions = [{bitcoin:mockResponse.body, type: FETCH_BITCOIN}];
+    return store.dispatch(fetchBitcoin()).then(()=>{
+        expect(store.getActions()).toEqual(expectedActions);
+    });
 });
 
