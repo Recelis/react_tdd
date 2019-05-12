@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Wallet } from './Wallet';
+import { Wallet } from './Wallet'; // import bare version so that it uses Redux
 
 describe('wallet', () => {
     const mockDeposit = jest.fn();

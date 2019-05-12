@@ -12,4 +12,8 @@ describe('App', ()=>{
         console.log(app.debug());
         expect(app.find('ConnectFunction').exists()).toBe(true);
     });
+
+    it('contains a connected Loot component', () => { // to find connected function
+        expect(app.find('ConnectFunction').exists()).toBe(true); // can't actually find Connect(Loot)
+    });
 });
