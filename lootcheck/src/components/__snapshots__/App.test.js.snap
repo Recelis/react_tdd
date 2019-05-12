@@ -26,6 +26,13 @@ ShallowWrapper {
         <UNDEFINED />,
         <hr />,
         <UNDEFINED />,
+        <div>
+          Powered by 
+          <a
+            href="https://www.coindesk.com/price"
+            target="_blank"
+          />
+        </div>,
       ],
     },
     "ref": null,
@@ -91,6 +98,37 @@ ShallowWrapper {
           Symbol(Symbol.hasInstance): [Function],
         },
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Powered by ",
+            <a
+              href="https://www.coindesk.com/price"
+              target="_blank"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Powered by ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "https://www.coindesk.com/price",
+              "target": "_blank",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "a",
+          },
+        ],
+        "type": "div",
+      },
     ],
     "type": "div",
   },
@@ -108,6 +146,13 @@ ShallowWrapper {
           <UNDEFINED />,
           <hr />,
           <UNDEFINED />,
+          <div>
+            Powered by 
+            <a
+              href="https://www.coindesk.com/price"
+              target="_blank"
+            />
+          </div>,
         ],
       },
       "ref": null,
@@ -172,6 +217,37 @@ ShallowWrapper {
             "type": [Function],
             Symbol(Symbol.hasInstance): [Function],
           },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Powered by ",
+              <a
+                href="https://www.coindesk.com/price"
+                target="_blank"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Powered by ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "href": "https://www.coindesk.com/price",
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "a",
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "div",
